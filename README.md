@@ -1,2 +1,8 @@
-# wu_nyu_dictionary
-基于apollo，graphQL，mdui，vue-router，webpack和express等等的吳語小詞典。
+# wu-nyu-dictionary-apollo-server
+
+wu-nyu-dictionary's Apollo GraphQL server
+
+```sh
+npm install
+npm run dev
+```
