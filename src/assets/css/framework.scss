@@ -1,0 +1,25 @@
+$btn-normal-radius:15px;
+
+html,body{
+  font-family: 'STZhongsong,LiSu,STXihei,YouYuan';
+}
+
+.btn-hollow{
+  border:1px solid;
+  border-radius: $btn-normal-radius;
+}
+
+/*添加banner背景控制*/
+.banner {
+  text-align: center;
+  background-image: url("../static/img/banner.png");
+  background-size: 100% 100%;
+  font-size: 28px;
+  font-family: 'LiSu';
+  padding-top: 2em;
+  line-height: 1.5;
+  color: #fff;
+  text-shadow: 0px 0px 6px #6b6c6b;
+  height: 5em;
+  width: 100%;
+}

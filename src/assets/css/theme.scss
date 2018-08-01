@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/*
+  颜色
+ */
+
+$linear-start:#1861D5;//高亮效果的渐变开始颜色
+$linear-end:#3080FE;//高亮效果的渐变结束颜色
+
+$theme_blue_color: #2196f3; // 页面蓝色主题 --默认色
+
+$theme_indigo_color:#3f51b5; //页面紫色主题 --默认色
+
+$theme_grey_color:#9E9E9E; //页面灰色主题 --默认色
+
+$theme_blue_grey_color:#607D8B; //页面蓝灰色主题 --默认色
+
+$clear-color:#fff;
+$normal-border:#ddd;
+
+/*选择主题面板      */
+.theme-blue{
+  background-color: $theme_blue_color;
+  color:  $theme_blue_color;
+}
+.theme-indigo{
+  background-color: $theme_indigo_color;
+  color:  $theme_indigo_color;
+}
+.theme-grey{
+  background-color: $theme_grey_color;
+  color:  $theme_grey_color;
+}
+.theme-blue-grey{
+  background-color: $theme_blue_grey_color;
+  color:  $theme_blue_grey_color;
+}
+/*
+  主题色相关
+ */
+.mdui-theme-primary-blue{
+  color:$theme_blue_color;
+  .btn-hollow{
+    border-color:$theme_blue_color;
+    color:$theme_blue_color;
+  }
+  .btn-hollow:hover,
+  .btn-hollow:focus,
+  .btn-hollow.focus {
+    background-color: $theme_blue_color;
+    color: $clear-color;
+  }
+}
+
+
+.mdui-theme-primary-indigo{
+  color:$theme_indigo_color;
+  .btn-hollow{
+    border-color:$theme_indigo_color;
+    color:$theme_indigo_color;
+  }
+  .btn-hollow:hover,
+  .btn-hollow:focus,
+  .btn-hollow.focus {
+    background-color: $theme_indigo_color;
+    color: $clear-color;
+  }
+}
+
+.mdui-theme-primary-grey{
+  color:$theme_grey_color;
+  .btn-hollow{
+    border-color:$theme_grey_color;
+    color:$theme_grey_color;
+  }
+  .btn-hollow:hover,
+  .btn-hollow:focus,
+  .btn-hollow.focus {
+    background-color: $theme_grey_color;
+    color: $clear-color;
+  }
+}
+
+
+.mdui-theme-primary-blue-grey{
+  color:$theme_blue_grey_color;
+  .btn-hollow{
+    border-color:$theme_blue_grey_color;
+    color:$theme_blue_grey_color;
+  }
+  .btn-hollow:hover,
+  .btn-hollow:focus,
+  .btn-hollow.focus {
+    background-color: $theme_blue_grey_color;
+    color: $clear-color;
+  }
+}

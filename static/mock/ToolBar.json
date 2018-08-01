@@ -1,0 +1,22 @@
+[
+  {
+    "title":"有查",
+    "icon":"home",
+    "link":"/v-dic"
+  },
+  {
+    "title":"有音",
+    "icon":"multiline_chart",
+    "link":"/v-voice"
+  },
+  {
+    "title":"有則",
+    "icon":"language",
+    "link":"/v-rule"
+  },
+  {
+    "title":"有地",
+    "icon":"dashboard",
+    "link":"/v-addr"
+  }
+]
